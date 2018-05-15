@@ -131,3 +131,20 @@ html {
   text-decoration: none;
   font-size: 1.8rem;
 }
+
+.result-post-links-wrapper {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 2rem;
+}
+
+.result-post-link {
+  color: #535353;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.result-post-link:hover {
+  text-decoration: underline;
+}

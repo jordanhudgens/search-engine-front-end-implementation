@@ -33,12 +33,18 @@
 
 .homepage-search-bar input[type="text"] {
   font-size: 2.5em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Font Awesome\ 5 Free", Arial, Helvetica, sans-serif;
   font-weight: 600;
   color: #585858;
   box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.1);
   border: 0px solid transparent;
   border-radius: 0.5rem;
+}
+
+.homepage-search-bar input[type="text"]::placeholer {
+  font-family: "Font Awesome\ 5 Free", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #a4a4a4;
 }
 
 .homepage-search-bar input[type="text"]:focus {

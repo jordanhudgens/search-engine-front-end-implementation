@@ -38,18 +38,27 @@ html {
   width: 10.5rem;
 }
 
-.homepage-search-bar {
+.search-bar {
   grid-column: 1/-1;
   grid-row: 2;
 }
 
-.homepage-search-bar input {
+.search-bar input {
   width: 66vw;
-  height: 11.8rem;
   padding-left: 0.75em;
 }
 
-.homepage-search-bar input[type="text"] {
+.homepage-search-bar input {
+  height: 11.8rem;
+}
+
+.results-search-bar input {
+  height: 5rem;
+  margin-bottom: 1em;
+  margin-top: 3em;
+}
+
+.search-bar input[type="text"] {
   font-size: 2.5em;
   font-family: "Font Awesome\ 5 Free", Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -59,18 +68,18 @@ html {
   border-radius: 0.5rem;
 }
 
-.homepage-search-bar input[type="text"]::placeholer {
+.search-bar input[type="text"]::placeholer {
   font-family: "Font Awesome\ 5 Free", Arial, Helvetica, sans-serif;
   font-weight: 600;
   color: #a4a4a4;
 }
 
-.homepage-search-bar input[type="text"]:focus {
+.search-bar input[type="text"]:focus {
   outline: none;
   box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.3);
 }
 
-.homepage-search-bar p {
+.search-bar p {
   color: #b3b3b3;
   font-size: 1.4rem;
   line-height: 1.7rem;
